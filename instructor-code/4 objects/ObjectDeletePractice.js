@@ -7,8 +7,8 @@ var mydates = {
     spots: false
 }
 
-mydates.spots = null;
-delete mydates.spots
+mydates
+delete mydates.bianca
 //delete spots from mydates
 
 

@@ -1,3 +1,4 @@
+// class function names need to start with a caplital letter.
 
 class Animal{
     constructor(sound, species){

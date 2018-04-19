@@ -8,13 +8,12 @@ let yessa = {
 }
 
 //Get yessa's name and favoritePhrase
-function describePerson({name, skills, planet} ){
-   console.log(`${name} likes to ${skills} on planet ${planet}`)
+
+function describePerson( { name, skills, planet } ){
+    console.log(`${name} likes ${skills[0]} on planet ${planet}.`)
 }
-describePerson( yessa )
 
-
-
+describePerson( yessa );
 
 //Instead of person, pick off the parameters: name, planet, skills
 //on the first line of the function

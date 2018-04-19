@@ -8,13 +8,14 @@ Let's dive into some of the afternoon project problems together.
 
 var myObj = {
     ary:[{
-        name:'str,
+        name:'str',
         shirt:{
             fabric:{
-                name:'cotton,
+                name:'cotton',
                 origin:{
                     state:{
-                        name:'Texas'
+                        name:'Texas',
+                        doStuff:()=>console.log("shoot dem guns")
                     }
                 }
             }
@@ -22,4 +23,4 @@ var myObj = {
     }]
 }
 let prop = 'fabric'
-myObj.ary[0].shirt[prop].origin.state.name
+myObj.ary[0].shirt[prop].origin.state.doStuff()

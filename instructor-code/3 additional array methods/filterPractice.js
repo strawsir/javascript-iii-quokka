@@ -31,7 +31,15 @@ var athletes = [
 //Filter IN all athletes with a strength higher than 6
 //Filter OUT all althletes that don't have Guy in their name
 
-var jocks = athletes.filter( (athlete) => athlete.wits<5)
-var hulks = athletes.filter((athlete)=> athlete.strength>6)
-var theGuys=athletes.filter((athlete)=>athlete.name.includes('Guy'))
+// var jocks = athletes.filter( 
+//         (athlete) => athlete.wits < 5)
+jocks
+var hulks = athletes.filter( 
+        (athlete) => athlete.strength > 6)
+hulks
+var theGuys = athletes.filter( 
+        (athlete) => athlete.name.includes('Guy'))
 
+var half = athletes.filter( 
+    (athlete, i) => i%2 ===0)
+theGuys
